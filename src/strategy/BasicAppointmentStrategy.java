@@ -8,9 +8,8 @@ import java.util.List;
 public class BasicAppointmentStrategy implements AppointmentStrategy {
     private List<Appointment> appointments = new ArrayList<>();
 
-    // Empty constructor
+   
     public BasicAppointmentStrategy(ArrayList<Object> objects) {
-        // You can initialize anything needed for the strategy here, if necessary
     }
 
     @Override
